@@ -89,6 +89,22 @@ specyfikacja to:
 - zamiast właściwej etykiety po `-` można dać `*`, co oznacza
   wyciszenie wszystkich błędów danego typu (np. `spell-*`).
 
+Przykład konkretnego wyciszenia typu (1):
+
+    (Fragment kodów źródłowych w~języku Perl). % --|latex-36
+
+Przykład wyciszenia typu (2):
+
+    % --<spell-*,grammar-*,latex-*
+    \lstset{
+      escapeinside=||,
+      basicstyle={\small\ttfamily},
+
+    ...
+
+    \end{lstlisting}
+    % -->
+
 Uwaga: jeśli zostanie napotkane uciszenie, dla którego błąd wcale nie
 wystąpił (zbędne uciszenie), jest to zgłaszane jako błąd! W przypadku
 specyfikacji z `*` muszą wystąpić przynajmniej 3 błędy.
