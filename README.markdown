@@ -140,6 +140,11 @@ Z kolei rozwinięcia akronimów mogą być objęte instrukcją `\english`, np.:
 
     XML (\english{eXtensible Markup Language}) to format...
 
+### Instrukcje, nazwy funkcji itp.
+
+Instrukcje, polecenia, nazwy funkcji, krótkie fragmenty kodów
+źródłowych wplecionych w tekst należy objąć instrukcją `\code{...}`.
+
 ### Numery wersji
 
 Autozoil traktuje zapisy typu "4.5" jako błąd (w polskich typografii
